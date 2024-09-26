@@ -1,0 +1,33 @@
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f0ff;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.nav-list li {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-top: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  font-weight: 500;
+}
+
+.nav-list li.active {
+  border-top-color: #6200ee;
+  color: #6200ee;
+}
