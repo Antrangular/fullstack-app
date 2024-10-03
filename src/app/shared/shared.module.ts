@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AutoHideDirective } from './directives/auto-hide.directive';
 
 /******** SHARE module
  * The components, directives, and pipes shared across various modules should be kept in a shared module.
@@ -12,7 +13,9 @@ Note: You must not define the services here. Since the shared modules are import
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AutoHideDirective
+  ],
   imports: [
     CommonModule
   ]
